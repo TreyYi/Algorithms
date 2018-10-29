@@ -2,6 +2,10 @@
 '''
 Bubble Sort repeatedly compares each pair of adjacent items and swaps them
 if one is bigger than another.
+
+Big(O)
+Worst: N^2
+Best: N
 '''
 
 def bubbleSort(unsorted_list):
@@ -14,6 +18,7 @@ def bubbleSort(unsorted_list):
     return unsorted_list
 
 if __name__ == "__main__":
-    unsorted_list = [21, 23, 5, 46, 1, 4, 8, 96, 65, 85]  # Create a unsorted number list
+    user_input = input('Enter numbers separated by a comma "," : ').strip()
+    unsorted_list = [int(item) for item in user_input.split(",")]  # Create a unsorted number list
     sorted_list = bubbleSort(unsorted_list)
     print(sorted_list)
