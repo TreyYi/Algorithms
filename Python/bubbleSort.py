@@ -4,8 +4,9 @@ Bubble Sort repeatedly compares each pair of adjacent items and swaps them
 if one is bigger than another.
 
 Big(O)
-Worst: N^2
-Best: N
+Worst case performance: O(N^2)
+Best case performance: O(N)
+Average case performance: O(n^2)
 '''
 
 def bubbleSort(unsorted_list):
