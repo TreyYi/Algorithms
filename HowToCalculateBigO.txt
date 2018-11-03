@@ -1,3 +1,13 @@
 # How to Calculate Big-O
 
 will be updating soon.
+
+What is Big-O?
+
+Big-O
+
+1. O(1): Constant access time
+2. O(log N): Logarithmic access time
+3. O(N): Linear access time
+4. O(N^2): Quadratic access time
+5. O(2^N): Exponential access time
