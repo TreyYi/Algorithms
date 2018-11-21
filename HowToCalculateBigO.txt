@@ -11,3 +11,6 @@ Big-O
 3. O(N): Linear access time
 4. O(N^2): Quadratic access time
 5. O(2^N): Exponential access time
+
+Big-O Comparison of Complexity
+O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ) < O(n!) < O(nⁿ)
