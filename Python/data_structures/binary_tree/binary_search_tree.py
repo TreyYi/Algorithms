@@ -41,7 +41,6 @@ class BinarySearchTree:
         # If it's a empty tree (no root)
         if (self.isEmpty()):
             self.root = newNode
-            print("root set!", self.root.getValue())
         else:
             # If it has a root
             currentNode = self.root
