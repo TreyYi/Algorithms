@@ -27,3 +27,8 @@ if __name__ == "__main__":
     sample_array = [6,3,7,2,7,4,7,3,21,54,0,6,5,3,1,3]
     sorted_array = quick_sort(sample_array)
     print(sorted_array)
+
+# more Pythonic way
+# def quick_sort(L):
+#     if L: return quick_sort([x for x in L if x<L[0]]) + [x for x in L if x==L[0]] + quick_sort([x for x in L if x>L[0]])
+#     return []
